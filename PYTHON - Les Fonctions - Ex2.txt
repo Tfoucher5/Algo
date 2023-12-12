@@ -3,7 +3,7 @@ PYTHON - Les Fonctions - Ex2
 ====Exercice 2====
 
 
-var longueur_mot, mot : string
+var longueur, mot, premier_mot : string
 
 
 Debut
