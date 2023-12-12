@@ -12,13 +12,13 @@ Debut
 
 Fonction afficher_longueur_mot(string mot): string
 	longueurs = []
-	tant que mot.lower() not in ["Stop" or "Stop" or "stop"]:
+	tant que mot.lower() not in ["STOP"]:
 		longueur = len(mot)
-		longueurs.append(longueur)
+		longueur.ajouter(longueurs)
 		demander("Entrez un mot(écrire STOP pour arrêter): ")
 		récupérer(mot)
 	total_lettres = sum(longueurs)
-	print("Nombre total de lettres: ", total_lettres)
+	print("Nombre total de lettres: ". total_lettres)
 	print("Programme terminé")
 	fin tant
 

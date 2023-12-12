@@ -1,4 +1,3 @@
-
 n = input("Entrez un mot: ")
 
 def etoile(mot):
@@ -7,4 +6,3 @@ def etoile(mot):
 
 mot_resultat = etoile(n)
 print(mot_resultat)
-
