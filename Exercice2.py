@@ -4,9 +4,7 @@ def afficher_longueur_mot(mot):
         longueur = len(mot)
         longueurs.append(longueur)
         mot = input("Entrez un mot (écrire STOP pour arrêter): ")
-
-    total_lettres = sum(longueurs)
-    print("Nombre total de lettres:", total_lettres)
+    print(longueurs)
     print("Programme terminé.")
 
 premier_mot = input("Entrez un mot (écrire STOP pour arrêter): ")
