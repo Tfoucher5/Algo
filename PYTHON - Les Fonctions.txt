@@ -1,4 +1,4 @@
-PYTHON - Les Fonctions
+PYTHON - Les Fonctions - Ex1
 
 ====Exercice 1====
 

@@ -1,0 +1,26 @@
+PYTHON - Les Fonctions - Ex2
+
+====Exercice 2====
+
+
+var longueur_mot, mot : string
+
+
+Debut
+
+Fonction afficher_longueur_mot(string mot): string
+	tant que mot != "Stop" or "Stop" or "stop":
+		longueur = len(mot)
+		print("le mot", mot, "contient", longueur, "lettres"
+		demander("Entrez un mot(écrire STOP pour arrêter): ")
+		récupérer(mot)
+	print("Programme terminé")
+
+demander("Entrez un mot(écrire STOP pour arrêter): ")
+récupérer(premier_mot)
+
+afficher_longueur_mot(premier_mot)
+
+
+
+   
