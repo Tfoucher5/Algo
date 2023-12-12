@@ -1,0 +1,24 @@
+PYTHON - Les Fonctions
+
+====Exercice 1====
+
+var mot, longueur_mot : char
+
+Debut
+   demander ("Entrez un mot")
+   récupérer("mot")
+
+   mot_etoiles = 0
+   mot_fin = "*"
+
+   Fonction etoile (string mot): string
+      longueur_mot = len(mot)
+      tant que mot_etoiles != longueur_mot:
+         mot_fin = mot_fin + "*"
+	 mot_etoiles = mot_etoiles + 1
+	 retour (mot_fin)
+   Fin
+   
+   etoile (mot):
+      print(mot_fin)
+Fin
