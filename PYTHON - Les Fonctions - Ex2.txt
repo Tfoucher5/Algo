@@ -12,11 +12,13 @@ Debut
 
 Fonction afficher_longueur_mot(string mot, longueur int, longueur_tab<numérique>)
 	longueur_tab = []
+	i = 0
 	tant que mot != "STOP" :
 		longueur = len(mot)
-		ajouter longueur à longueur_tab
+		longueur_tab[i] = longueur
 		demander("Entrez un mot(écrire STOP pour arrêter): ")
 		récupérer(mot)
+		i = i + 1
 	print(longueur_tab)
 	print("Programme terminé")
 	fin tant
