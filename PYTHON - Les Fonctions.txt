@@ -2,7 +2,7 @@ PYTHON - Les Fonctions
 
 ====Exercice 1====
 
-var mot, longueur_mot : char
+var mot, longueur_mot, mot_etoiles, mot_fin: string
 
 Debut
    demander ("Entrez un mot")
@@ -16,6 +16,7 @@ Debut
       tant que mot_etoiles != longueur_mot:
          mot_fin = mot_fin + "*"
 	 mot_etoiles = mot_etoiles + 1
+      Fin tant
 	 retour (mot_fin)
    Fin
    
