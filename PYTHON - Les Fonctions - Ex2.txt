@@ -3,9 +3,9 @@ PYTHON - Les Fonctions - Ex2
 ====Exercice 2====
 
 
-var longueur, mot, premier_mot : string
+var mot, premier_mot : string
 var longueurs<numerique>
-var total_lettres : int
+var total_lettres, longueur: int
 
 
 Debut
