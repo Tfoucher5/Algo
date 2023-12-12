@@ -1,12 +1,14 @@
-def afficher_longueur_mot(mot):        
-    while mot != "STOP" or "Stop" or "stop":
+def afficher_longueur_mot(mot):
+    longueurs = []
+    while mot.lower() not in ["stop"]:
         longueur = len(mot)
-        print("Le mot", mot, "contient", longueur, "lettres.")
+        longueurs.append(longueur)
         mot = input("Entrez un mot (écrire STOP pour arrêter): ")
+
+    total_lettres = sum(longueurs)
+    print("Nombre total de lettres:", total_lettres)
     print("Programme terminé.")
 
-# Demander le premier mot à l'utilisateur
 premier_mot = input("Entrez un mot (écrire STOP pour arrêter): ")
 
-# Appeler la fonction avec le premier mot
 afficher_longueur_mot(premier_mot)
