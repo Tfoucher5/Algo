@@ -4,21 +4,20 @@ PYTHON - Les Fonctions - Ex2
 
 
 var mot, premier_mot : string
-var longueurs<numerique>
+var longueur_tab<numerique>
 var total_lettres, longueur: int
 
 
 Debut
 
-Fonction afficher_longueur_mot(string mot): string
-	longueurs = []
+Fonction afficher_longueur_mot(string mot, longueur int, longueur_tab<numérique>)
+	longueur_tab = []
 	tant que mot != "STOP" :
 		longueur = len(mot)
-		ajouter longueur à longueurs
+		ajouter longueur à longueur_tab
 		demander("Entrez un mot(écrire STOP pour arrêter): ")
 		récupérer(mot)
-	total_lettres = sum(longueurs)
-	print("Nombre total de lettres: ". total_lettres)
+	print(longueur_tab)
 	print("Programme terminé")
 	fin tant
 Fin fonction
@@ -26,7 +25,7 @@ Fin fonction
 demander("Entrez un mot(écrire STOP pour arrêter): ")
 récupérer(premier_mot)
 
-afficher_longueur_mot(premier_mot)
+afficher_longueur_mot(premier_mot): str
 
 Fin
 
