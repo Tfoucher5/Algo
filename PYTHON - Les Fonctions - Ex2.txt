@@ -4,16 +4,21 @@ PYTHON - Les Fonctions - Ex2
 
 
 var longueur, mot, premier_mot : string
+var longueurs<numerique>
+var total_lettres : int
 
 
 Debut
 
 Fonction afficher_longueur_mot(string mot): string
-	tant que mot != "Stop" or "Stop" or "stop":
+	longueurs = []
+	tant que mot.lower() not in ["Stop" or "Stop" or "stop"]:
 		longueur = len(mot)
-		print("le mot". mot. "contient". longueur. "lettres"
+		longueurs.append(longueur)
 		demander("Entrez un mot(écrire STOP pour arrêter): ")
 		récupérer(mot)
+	total_lettres = sum(longueurs)
+	print("Nombre total de lettres: ", total_lettres)
 	print("Programme terminé")
 	fin tant
 
